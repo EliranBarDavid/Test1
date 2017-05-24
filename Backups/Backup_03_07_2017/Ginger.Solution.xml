@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.2.0.0-->
+<Ginger.Environments.Solution Created="2/21/2017 2:43:40 PM" CreatedBy="eliranba" Guid="8f9edf18-0fed-46a7-8162-73c8048ed013" LastBusinessFlowFileName="C:\Ginger\IE Window Explorer Solution\\BusinessFlows\Business Flow 1.Ginger.BusinessFlow.xml" LastUpdate="2/27/2017 10:23:57 AM" LastUpdateBy="eliranba" Name="Chrome Window Explorer Solution" ParentGuid="00000000-0000-0000-0000-000000000000" Version="2">
+<ApplicationPlatforms>
+<GingerCore.Platforms.ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Created="2/21/2017 2:44:14 PM" CreatedBy="eliranba" Guid="451bf0c8-6982-4f41-b34b-4516fe2e9c24" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<Ginger.Reports.ExecutionLoggerConfiguration Created="2/27/2017 10:23:42 AM" CreatedBy="eliranba" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="50" Guid="b9084669-5ac8-4590-a092-fc6b0b7d06ce" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<ExternalItemsFields>
+</ExternalItemsFields>
+
+<HTMLReportsConfigurationSetList>
+<Ginger.Reports.HTMLReportsConfiguration Created="2/27/2017 10:23:42 AM" CreatedBy="eliranba" Guid="82dab488-6339-44ef-bcb2-dc075e6b1928" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</HTMLReportsConfigurationSetList>
+
+<Variables>
+</Variables>
+</Ginger.Environments.Solution>

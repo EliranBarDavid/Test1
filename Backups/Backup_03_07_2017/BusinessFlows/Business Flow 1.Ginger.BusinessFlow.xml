@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.2.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="2/28/2017 9:18:17 AM" LastUpdateBy="eliranba" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="5">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="b768f605-792c-4d31-844c-c54ebe57a180" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="56c7b438-62e1-4526-a278-1d9a2c1d9e51" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/22/2017 12:17:59 PM" CreatedBy="eliranba" Guid="3b8d6126-a4c5-4609-95e4-866e8e9afbe6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="C:\Users\eliranba\Desktop\LoginForm.html" Value="C:\Users\eliranba\Desktop\LoginForm.html" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActGenElement Active="True" Created="2/22/2017 12:27:00 PM" CreatedBy="eliranba" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="RunJavaScript" Guid="17399376-046e-4f0b-8fc3-218c58ac41e4" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="body" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/22/2017 12:27:05 PM" CreatedBy="eliranba" Guid="6771ca5f-d0f1-4439-b6be-05a01bd4fb14" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="window.location.host='facebook.com'" Value="window.location.host='facebook.com'" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="MyWebApp" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Guid="e00c4d49-ec14-471d-bec7-9a418300b7a7" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>
