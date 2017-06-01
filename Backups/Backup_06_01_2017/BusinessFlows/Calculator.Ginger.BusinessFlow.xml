@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.3.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="4/2/2017 9:55:23 AM" CreatedBy="eliranba" EnableActivitiesVariablesDependenciesControl="False" Guid="bf4d3be2-e91f-4238-8540-14a27c6153e4" LastUpdate="4/5/2017 1:39:56 PM" LastUpdateBy="ELIRANBA" Name="Calculator" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="17">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="4/2/2017 9:55:23 AM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="764a0b79-e221-4842-9705-bf6aa7c5de0e" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" Version="0">
+<Acts>
+</Acts>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="MyWindowsApp" Created="4/2/2017 9:55:26 AM" CreatedBy="eliranba" Guid="3cdd5267-a680-4b51-a50d-3bfb77c6627e" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>

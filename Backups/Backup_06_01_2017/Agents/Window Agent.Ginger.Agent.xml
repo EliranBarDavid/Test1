@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.3.0.0-->
+<GingerCore.Agent Active="True" Created="4/2/2017 9:54:34 AM" CreatedBy="eliranba" DriverType="WindowsAutomation" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="4/2/2017 9:55:07 AM" LastUpdateBy="eliranba" Name="Window Agent" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="2">
+<DriverConfiguration>
+<GingerCore.DriverConfigParam Created="4/2/2017 9:55:02 AM" CreatedBy="eliranba" Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="13fed61c-5cc3-4dd0-aa8f-eede7132913b" LastUpdate="1/1/0001 12:00:00 AM" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" Version="0" />
+<GingerCore.DriverConfigParam Created="4/2/2017 9:55:02 AM" CreatedBy="eliranba" Description="Applitool - Set to true if you want to use Applitools for visual testing" Guid="cd22d2fd-aae9-4f56-9d24-37e391043ef8" LastUpdate="1/1/0001 12:00:00 AM" Parameter="UseApplitools" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" Version="0" />
+<GingerCore.DriverConfigParam Created="4/2/2017 9:55:02 AM" CreatedBy="eliranba" Description="Applitool View Key number" Guid="e78c2c68-dba5-4329-96e2-fde77df01989" LastUpdate="1/1/0001 12:00:00 AM" Parameter="ApplitoolsViewKey" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
+</DriverConfiguration>
+</GingerCore.Agent>
