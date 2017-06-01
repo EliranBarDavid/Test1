@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.3.0.0-->
 <GingerCore.Agent Active="True" Created="5/24/2017 12:20:07 PM" CreatedBy="ELIRANBA" DriverType="SeleniumEdge" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="6/1/2017 7:48:39 AM" LastUpdateBy="ELIRANBA" Name="aa" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="20">
 <DriverConfiguration>
