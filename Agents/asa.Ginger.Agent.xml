@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.4.0.0-->
-<GingerCore.Agent Active="True" Created="5/25/2017 1:41:21 PM" CreatedBy="ELIRANBA" DriverType="InternalBrowser" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="5/25/2017 1:42:32 PM" LastUpdateBy="ELIRANBA" Name="asa" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="1">
-  <DriverConfiguration>
-    <GingerCore.DriverConfigParam Created="5/25/2017 1:42:32 PM" CreatedBy="ELIRANBA" Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="faa9f28a-4bc1-4c86-b6b4-e8fb03446bb9" LastUpdate="1/1/0001 12:00:00 AM" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" Version="0" />
-    <GingerCore.DriverConfigParam Created="5/25/2017 1:42:32 PM" CreatedBy="ELIRANBA" Description="Applitool - Set to true if you want to use Applitools for visual testing" Guid="fd8f0d75-8eab-4774-8c7d-48f0162d7249" LastUpdate="1/1/0001 12:00:00 AM" Parameter="UseApplitools" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" Version="0" />
-    <GingerCore.DriverConfigParam Created="5/25/2017 1:42:32 PM" CreatedBy="ELIRANBA" Description="Applitool View Key number" Guid="cd0f8d61-1d1c-4fbc-9a32-04783d9c5e22" LastUpdate="1/1/0001 12:00:00 AM" Parameter="ApplitoolsViewKey" ParentGuid="00000000-0000-0000-0000-000000000000" Value="" Version="0" />
-  </DriverConfiguration>
-</GingerCore.Agent>
