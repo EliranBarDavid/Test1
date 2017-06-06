@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.4.0.0-->
-<GingerCore.Agent Active="True" Created="6/5/2017 7:04:47 AM" CreatedBy="eliranba" DriverType="WebServices" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="6/5/2017 7:04:53 AM" LastUpdateBy="eliranba" Name="aa" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="1">
+<GingerCore.Agent Active="True" Created="6/5/2017 7:04:47 AM" CreatedBy="eliranba" DriverType="WebServices" Guid="00000000-0000-0000-0000-000000000000" LastUpdate="6/5/2017 2:01:03 PM" LastUpdateBy="eliranba" Name="aaa" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="2">
 <DriverConfiguration>
 <GingerCore.DriverConfigParam Created="6/5/2017 7:04:53 AM" CreatedBy="eliranba" Description="Show Driver Window On Launch" Guid="734dd0f1-3338-4390-b446-fcca53aac90d" LastUpdate="1/1/0001 12:00:00 AM" Parameter="ShowDriverWindowOnLaunch" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" Version="0" />
 <GingerCore.DriverConfigParam Created="6/5/2017 7:04:53 AM" CreatedBy="eliranba" Description="Save Request XML" Guid="a2c7e690-582d-446f-bb75-fe977b8b9137" LastUpdate="1/1/0001 12:00:00 AM" Parameter="SaveRequestXML" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" Version="0" />
