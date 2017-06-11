@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:15 PM" CreatedBy="eliranba" Description="Check item is visible 'label' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="03b7443c-debf-4c27-9f2b-638bfe1d299b" LastUpdate="6/6/2017 2:40:43 PM" LastUpdateBy="eliranba" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="1" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="3/23/2017 2:49:15 PM" CreatedBy="eliranba" Guid="f6518ba5-041c-4914-8989-247c6a017724" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>

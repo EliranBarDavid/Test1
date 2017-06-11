@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.4.0.0-->
-<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Description="aa" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="6/5/2017 2:01:04 PM" LastUpdateBy="eliranba" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="40">
+<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Description="aa" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="6/11/2017 8:02:53 AM" LastUpdateBy="ELIRANBA" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="49">
 <Activities>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="b768f605-792c-4d31-844c-c54ebe57a180" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="67%" TargetApplication="MyWebApp" Version="0">
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="b768f605-792c-4d31-844c-c54ebe57a180" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActGotoURL Active="False" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="56c7b438-62e1-4526-a278-1d9a2c1d9e51" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="56c7b438-62e1-4526-a278-1d9a2c1d9e51" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -12,7 +12,7 @@
 </FlowControls>
 
 <InputValues>
-<GingerCore.Actions.ActInputValue Created="2/22/2017 12:17:59 PM" CreatedBy="eliranba" Guid="3b8d6126-a4c5-4609-95e4-866e8e9afbe6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="C:\Users\eliranba\Desktop\LoginForm.html" Value="C:\Users\eliranba\Desktop\LoginForm.html" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/22/2017 12:17:59 PM" CreatedBy="eliranba" Guid="3b8d6126-a4c5-4609-95e4-866e8e9afbe6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="file:///C:/Users/eliranba/Desktop/LoginForm.html&#xD;&#xA;" Value="file:///C:/Users/eliranba/Desktop/LoginForm.html&#xD;&#xA;" Version="0" />
 </InputValues>
 
 <ReturnValues>
@@ -24,7 +24,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGotoURL>
-<GingerCore.Actions.ActGotoURL Active="False" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action_Copy" EnableRetryMechanism="False" Guid="56226f3c-97ab-49eb-aa03-b9acaf81c31e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action_Copy" EnableRetryMechanism="False" ExternalID="" Guid="b4bc6f3e-64e3-4936-a93f-139c53c0e95d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -32,7 +32,7 @@
 </FlowControls>
 
 <InputValues>
-<GingerCore.Actions.ActInputValue Created="2/22/2017 12:17:59 PM" CreatedBy="eliranba" Guid="3b8d6126-a4c5-4609-95e4-866e8e9afbe6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="C:\Users\eliranba\Desktop\Telus.html" Value="C:\Users\eliranba\Desktop\Telus.html" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/22/2017 12:17:59 PM" CreatedBy="eliranba" Guid="3b8d6126-a4c5-4609-95e4-866e8e9afbe6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="https://webcapmdev4.dev.att.com&#xD;&#xA;" Value="https://webcapmdev4.dev.att.com&#xD;&#xA;" Version="0" />
 </InputValues>
 
 <ReturnValues>
@@ -44,7 +44,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGotoURL>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/1/2017 11:43:41 AM" CreatedBy="ELIRANBA" Description="Set Text 'uname'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="22fb9a98-80ba-4120-a74d-d55765871dd7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:31:35 PM" CreatedBy="eliranba" Description="Set Text 'userid'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="3c1e479c-aa42-44b0-ba01-bc2b2f9b77de" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="userid" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -52,7 +52,7 @@
 </FlowControls>
 
 <InputValues>
-<GingerCore.Actions.ActInputValue Created="6/1/2017 11:43:41 AM" CreatedBy="ELIRANBA" Guid="f2d928da-a74e-4411-b4d4-184aaa2bf553" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="asd" Value="asd" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/6/2017 1:31:35 PM" CreatedBy="eliranba" Guid="76bfdc24-4e50-4a74-9c84-6494b4f5cda4" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="mk376a" Value="mk376a" Version="0" />
 </InputValues>
 
 <ReturnValues>
@@ -64,7 +64,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/1/2017 11:43:42 AM" CreatedBy="ELIRANBA" Description="Set Web Element 'psw'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="14d15fd0-78c4-4291-85b1-162432c11aa4" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="psw" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:31:44 PM" CreatedBy="eliranba" Description="Set Web Element 'password'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="946eb8ee-f779-4226-ae1d-dd03342fb3c0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="password" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -72,7 +72,7 @@
 </FlowControls>
 
 <InputValues>
-<GingerCore.Actions.ActInputValue Created="6/1/2017 11:43:42 AM" CreatedBy="ELIRANBA" Guid="8bff2dfc-45e8-43cc-a4aa-e1d48893e1ce" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="asd" Value="asd" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/6/2017 1:31:44 PM" CreatedBy="eliranba" Guid="53c5ea2f-cad9-4f19-a0cf-ef3cf318f617" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Ghkeud5687s" Value="Ghkeud5687s" Version="0" />
 </InputValues>
 
 <ReturnValues>
@@ -84,7 +84,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/1/2017 11:43:44 AM" CreatedBy="ELIRANBA" Description="Click Checkbox '/html/body/form/div[2]/input[3]'" EnableRetryMechanism="False" GenElementAction="Click" Guid="6114c1a6-99e6-467e-9975-c2ab199b607a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/form/div[2]/input[3]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:48:42 PM" CreatedBy="eliranba" Description="Click INPUT.BUTTON input Name=successOK" EnableRetryMechanism="False" GenElementAction="Click" Guid="33ee5d78-1239-4ad6-9046-e11d71d333bc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="successOK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -92,27 +92,7 @@
 </FlowControls>
 
 <InputValues>
-<GingerCore.Actions.ActInputValue Created="6/1/2017 11:43:44 AM" CreatedBy="ELIRANBA" Guid="288cf9a3-b0d7-4945-9d2f-7cd11f02bc80" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="on" Value="on" Version="0" />
-</InputValues>
-
-<ReturnValues>
-</ReturnValues>
-
-<Tags>
-</Tags>
-
-<VariablesDependencies>
-</VariablesDependencies>
-</GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/1/2017 11:43:44 AM" CreatedBy="ELIRANBA" Description="Click Button '/html/body/form/div[3]/button'" EnableRetryMechanism="False" GenElementAction="Click" Guid="cf889b78-c150-43e7-a40d-449157b8f56b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/form/div[3]/button" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
-<DSOutputConfigParams>
-</DSOutputConfigParams>
-
-<FlowControls>
-</FlowControls>
-
-<InputValues>
-<GingerCore.Actions.ActInputValue Created="6/1/2017 11:43:44 AM" CreatedBy="ELIRANBA" Guid="d26d7a0f-5a74-4c9f-9926-61708a5c7893" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/6/2017 1:48:48 PM" CreatedBy="eliranba" Guid="d76422f2-c26e-4cf2-bdb8-7b57c7e6fad7" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
 </InputValues>
 
 <ReturnValues>
