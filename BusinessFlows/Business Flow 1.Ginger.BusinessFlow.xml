@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.4.0.0-->
-<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Description="aa" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="6/12/2017 9:10:30 AM" LastUpdateBy="ELIRANBA" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="51">
+<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Description="aa" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="6/12/2017 2:11:53 PM" LastUpdateBy="ELIRANBA" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="53">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="b768f605-792c-4d31-844c-c54ebe57a180" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
@@ -888,6 +888,26 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchToDefaultFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from:Main Frame_Copy" EnableRetryMechanism="False" ExternalID="" Guid="f21d1225-f300-48f7-b5d4-977eb84648d6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/12/2017 2:11:41 PM" CreatedBy="ELIRANBA" Guid="0bd2c7ca-4892-455e-81e7-d045e068ca25" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActBrowserElement>
 </Acts>
 
 <Tags>
