@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.4.0.0-->
-<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Description="GGGGGGGGGGGGGwqe" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="7/9/2017 2:37:53 PM" LastUpdateBy="ELIRANBA" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="117">
+<GingerCore.BusinessFlow Active="False" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" Description="asdsa" EnableActivitiesVariablesDependenciesControl="False" Guid="36350d48-2b89-4e7f-a05e-199328f2cf99" LastUpdate="8/16/2017 11:33:06 AM" LastUpdateBy="eliranba" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="118">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="2/21/2017 2:44:15 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="b768f605-792c-4d31-844c-c54ebe57a180" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="56c7b438-62e1-4526-a278-1d9a2c1d9e51" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="56c7b438-62e1-4526-a278-1d9a2c1d9e51" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -24,7 +24,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGotoURL>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="InitializeBrowser" Created="7/2/2017 11:18:05 AM" CreatedBy="ELIRANBA" Description="Browser Action" EnableRetryMechanism="False" ExternalID="" Guid="76b77b21-99db-4e7d-be7e-d8b380ca1d4f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="InitializeBrowser" Created="7/2/2017 11:18:05 AM" CreatedBy="ELIRANBA" Description="Browser Action" EnableRetryMechanism="False" ExternalID="" Guid="76b77b21-99db-4e7d-be7e-d8b380ca1d4f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -44,7 +44,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActBrowserElement>
-<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action_Copy" EnableRetryMechanism="False" ExternalID="" Guid="b4bc6f3e-64e3-4936-a93f-139c53c0e95d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action_Copy" EnableRetryMechanism="False" ExternalID="" Guid="b4bc6f3e-64e3-4936-a93f-139c53c0e95d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -64,7 +64,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGotoURL>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:31:35 PM" CreatedBy="eliranba" Description="Set Text 'userid'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="3c1e479c-aa42-44b0-ba01-bc2b2f9b77de" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="userid" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:31:35 PM" CreatedBy="eliranba" Description="Set Text 'userid'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="3c1e479c-aa42-44b0-ba01-bc2b2f9b77de" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="userid" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -84,7 +84,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:31:44 PM" CreatedBy="eliranba" Description="Set Web Element 'password'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="946eb8ee-f779-4226-ae1d-dd03342fb3c0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="password" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:31:44 PM" CreatedBy="eliranba" Description="Set Web Element 'password'" EnableRetryMechanism="False" GenElementAction="SendKeys" Guid="946eb8ee-f779-4226-ae1d-dd03342fb3c0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="password" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -104,7 +104,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:48:42 PM" CreatedBy="eliranba" Description="Click INPUT.BUTTON input Name=successOK" EnableRetryMechanism="False" GenElementAction="Click" Guid="33ee5d78-1239-4ad6-9046-e11d71d333bc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="successOK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/6/2017 1:48:42 PM" CreatedBy="eliranba" Description="Click INPUT.BUTTON input Name=successOK" EnableRetryMechanism="False" GenElementAction="Click" Guid="33ee5d78-1239-4ad6-9046-e11d71d333bc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="successOK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -137,7 +137,7 @@
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 2" AutomationStatus="Development" Created="3/13/2017 1:27:14 PM" CreatedBy="ELIRANBA" EnableActionsVariablesDependenciesControl="False" Guid="abf6b71b-a8fd-463e-8e5c-8cef4dbc320c" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="3/13/2017 1:27:28 PM" CreatedBy="ELIRANBA" Description="Goto URL Action" EnableRetryMechanism="False" Guid="5553e96c-0bde-43ca-a357-71987c62dfac" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="3/13/2017 1:27:28 PM" CreatedBy="ELIRANBA" Description="Goto URL Action" EnableRetryMechanism="False" Guid="5553e96c-0bde-43ca-a357-71987c62dfac" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -157,7 +157,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGotoURL>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="b80b27bd-d785-4a21-9bda-e29ea01f1aea" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="btnLogon" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Click" Guid="b80b27bd-d785-4a21-9bda-e29ea01f1aea" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="btnLogon" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -177,7 +177,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:44:30 PM" CreatedBy="ELIRANBA" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="94295a6f-85f1-4221-8de8-690610d732e6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="userid" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:44:30 PM" CreatedBy="ELIRANBA" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="94295a6f-85f1-4221-8de8-690610d732e6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="userid" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -197,7 +197,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:44:30 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="0338968c-246e-405b-baa1-7a498d3a9b4a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="password" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:44:30 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="0338968c-246e-405b-baa1-7a498d3a9b4a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="password" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -217,7 +217,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy2" EnableRetryMechanism="False" GenElementAction="Click" Guid="744ce848-d724-420b-a473-668f81c06de0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSubmit" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy2" EnableRetryMechanism="False" GenElementAction="Click" Guid="744ce848-d724-420b-a473-668f81c06de0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSubmit" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -237,7 +237,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy2_Copy" EnableRetryMechanism="False" GenElementAction="Click" Guid="b62db6e8-0ff8-4557-bc2d-e8c902b4669c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="successOK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy2_Copy" EnableRetryMechanism="False" GenElementAction="Click" Guid="b62db6e8-0ff8-4557-bc2d-e8c902b4669c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="successOK" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -257,7 +257,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:44:30 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy_Copy" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="5a14d179-4611-4d93-bad1-3a4d686a2862" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="accountNumber" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:44:30 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy_Copy" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="5a14d179-4611-4d93-bad1-3a4d686a2862" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="accountNumber" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -277,7 +277,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy2_Copy_Copy" EnableRetryMechanism="False" GenElementAction="Click" Guid="eaba6962-24eb-42a5-bce8-4f2e08d585bf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="goButton" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/13/2017 1:38:48 PM" CreatedBy="ELIRANBA" Description="Generic Element_Copy2_Copy_Copy" EnableRetryMechanism="False" GenElementAction="Click" Guid="eaba6962-24eb-42a5-bce8-4f2e08d585bf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="goButton" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -297,7 +297,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 12:36:42 PM" CreatedBy="eliranba" Description="Set input ID=txtCBRNewPhone Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="9260e9e7-a4c1-4ab2-b01c-61f7640f85e9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="txtCBRNewPhone" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 12:36:42 PM" CreatedBy="eliranba" Description="Set input ID=txtCBRNewPhone Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="9260e9e7-a4c1-4ab2-b01c-61f7640f85e9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="txtCBRNewPhone" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -330,7 +330,7 @@
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 3" AutomationStatus="Development" Created="3/23/2017 2:44:37 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="f8ba728e-c8c9-4190-a604-d35c8cd95bed" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:44:04 PM" CreatedBy="eliranba" Description="Click TD td ID=tdActivityTabs" EnableRetryMechanism="False" GenElementAction="Click" Guid="3c9e6ddb-106a-441a-8763-3b07a375aa4f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[8]/table[1]/tbody[1]/tr[1]/td[2]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:44:04 PM" CreatedBy="eliranba" Description="Click TD td ID=tdActivityTabs" EnableRetryMechanism="False" GenElementAction="Click" Guid="3c9e6ddb-106a-441a-8763-3b07a375aa4f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[8]/table[1]/tbody[1]/tr[1]/td[2]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -350,7 +350,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:48:26 PM" CreatedBy="eliranba" Description="Check item is visible 'input ID=radLettersActivityCode1' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="1ce44644-44ef-4e4e-aeb3-bfa24bf3fc6f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="radLettersActivityCode1" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:48:26 PM" CreatedBy="eliranba" Description="Check item is visible 'input ID=radLettersActivityCode1' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="1ce44644-44ef-4e4e-aeb3-bfa24bf3fc6f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="radLettersActivityCode1" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -370,7 +370,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:15 PM" CreatedBy="eliranba" Description="Check item is visible 'label' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="03b7443c-debf-4c27-9f2b-638bfe1d299b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:15 PM" CreatedBy="eliranba" Description="Check item is visible 'label' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="03b7443c-debf-4c27-9f2b-638bfe1d299b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -390,7 +390,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:31 PM" CreatedBy="eliranba" Description="Get Value of 'input ID=radLettersActivityCode2' " EnableRetryMechanism="False" GenElementAction="GetValue" Guid="a3a48fba-ed75-4c9b-86f7-d3c24a05a1aa" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="radLettersActivityCode2" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:31 PM" CreatedBy="eliranba" Description="Get Value of 'input ID=radLettersActivityCode2' " EnableRetryMechanism="False" GenElementAction="GetValue" Guid="a3a48fba-ed75-4c9b-86f7-d3c24a05a1aa" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="radLettersActivityCode2" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -410,7 +410,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:37 PM" CreatedBy="eliranba" Description="Validate text of label 'label' " EnableRetryMechanism="False" GenElementAction="GetValue" Guid="095e38d7-4416-4edb-8935-0aa7f10a5515" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[2]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:49:37 PM" CreatedBy="eliranba" Description="Validate text of label 'label' " EnableRetryMechanism="False" GenElementAction="GetValue" Guid="095e38d7-4416-4edb-8935-0aa7f10a5515" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/label[2]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -430,7 +430,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:50:28 PM" CreatedBy="eliranba" Description="Check item is visible 'select Name=letterList' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="e7022720-df19-41ed-a185-e329c0aa6747" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="letterList" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:50:28 PM" CreatedBy="eliranba" Description="Check item is visible 'select Name=letterList' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="e7022720-df19-41ed-a185-e329c0aa6747" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="letterList" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -450,7 +450,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:52:02 PM" CreatedBy="eliranba" Description="Check item is visible 'td' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="c2c51114-e13b-4dcd-8c30-6a4522b3e532" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/23/2017 2:52:02 PM" CreatedBy="eliranba" Description="Check item is visible 'td' " EnableRetryMechanism="False" GenElementAction="Visible" Guid="c2c51114-e13b-4dcd-8c30-6a4522b3e532" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div[10]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -483,7 +483,7 @@
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Kashmira Site" AutomationStatus="Development" Created="3/28/2017 9:45:06 AM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="bae7fc12-4590-4df2-913c-408579cce3e3" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="adc61c8c-8c58-4a33-9066-b58643b6101d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="2/22/2017 12:17:51 PM" CreatedBy="eliranba" Description="Goto URL Action" EnableRetryMechanism="False" Guid="adc61c8c-8c58-4a33-9066-b58643b6101d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -503,7 +503,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGotoURL>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:58:01 PM" CreatedBy="eliranba" Description="Set input ID=view39 Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="29fc0010-82e4-4583-b02b-eec26e163f45" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="view39" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:58:01 PM" CreatedBy="eliranba" Description="Set input ID=view39 Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="29fc0010-82e4-4583-b02b-eec26e163f45" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="view39" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -523,7 +523,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:58:53 PM" CreatedBy="eliranba" Description="Set input ID=view41 Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="ab04edd2-652d-48f1-b36e-780711283ddd" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="view41" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:58:53 PM" CreatedBy="eliranba" Description="Set input ID=view41 Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="ab04edd2-652d-48f1-b36e-780711283ddd" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="view41" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -543,7 +543,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:59:13 PM" CreatedBy="eliranba" Description="Click 'span' " EnableRetryMechanism="False" GenElementAction="Click" Guid="f4490805-72f2-42ae-8680-c56349ca8a99" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/div[3]/div[1]/button[1]/span[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:59:13 PM" CreatedBy="eliranba" Description="Click 'span' " EnableRetryMechanism="False" GenElementAction="Click" Guid="f4490805-72f2-42ae-8680-c56349ca8a99" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/div[3]/div[1]/button[1]/span[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -563,7 +563,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 3:02:09 PM" CreatedBy="ELIRANBA" Description="Click by X Y inside the canvas Element" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="b86642fb-4b2f-4652-89e3-e341d87e8c55" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="33" Yoffset="74">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 3:02:09 PM" CreatedBy="ELIRANBA" Description="Click by X Y inside the canvas Element" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="b86642fb-4b2f-4652-89e3-e341d87e8c55" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="33" Yoffset="74">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -596,7 +596,7 @@
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Canvas" AutomationStatus="Development" Created="4/3/2017 1:25:02 PM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="36eb0ceb-7e68-4f89-bab1-f44239586417" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="4/3/2017 1:25:56 PM" CreatedBy="eliranba" Description="First frame" EnableRetryMechanism="False" Guid="3326b7f7-3d0c-41ae-8035-a9d0dcd7548e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[1]/div[4]/div[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="4/3/2017 1:25:56 PM" CreatedBy="eliranba" Description="First frame" EnableRetryMechanism="False" Guid="3326b7f7-3d0c-41ae-8035-a9d0dcd7548e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[1]/div[4]/div[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -616,7 +616,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActBrowserElement>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="4/3/2017 1:25:56 PM" CreatedBy="eliranba" Description="second frame" EnableRetryMechanism="False" Guid="128824a6-ea66-4b57-9004-60f75b52a483" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[3]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="4/3/2017 1:25:56 PM" CreatedBy="eliranba" Description="second frame" EnableRetryMechanism="False" Guid="128824a6-ea66-4b57-9004-60f75b52a483" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[3]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -636,7 +636,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActBrowserElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:25:23 PM" CreatedBy="eliranba" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Visible" Guid="c865ebe6-512a-43d9-bebd-95d19568b37e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/3/2017 1:25:23 PM" CreatedBy="eliranba" Description="Generic Element" EnableRetryMechanism="False" GenElementAction="Visible" Guid="c865ebe6-512a-43d9-bebd-95d19568b37e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="29" Yoffset="41">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -656,7 +656,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 1:51:26 PM" CreatedBy="ELIRANBA" Description="Radio Button Click" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="d9cb8ae5-01b0-4d8a-9b65-a90a9488b7ba" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="31" Yoffset="75">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 1:51:26 PM" CreatedBy="ELIRANBA" Description="Radio Button Click" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="d9cb8ae5-01b0-4d8a-9b65-a90a9488b7ba" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="31" Yoffset="75">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -676,7 +676,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 4:19:33 PM" CreatedBy="ELIRANBA" Description="Click by X Y inside the canvas Element" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="460d8963-b841-43d0-b66d-4bf88930915d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="291" Yoffset="77">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 4:19:33 PM" CreatedBy="ELIRANBA" Description="Click by X Y inside the canvas Element" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="460d8963-b841-43d0-b66d-4bf88930915d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="291" Yoffset="77">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -696,7 +696,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 1:51:26 PM" CreatedBy="ELIRANBA" Description="SendKeys by X Y inside the canvas TextBox" EnableRetryMechanism="False" GenElementAction="XYSendKeys" Guid="0dfd665e-2fe7-48d6-9c7e-a64160e6da4e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="261" Yoffset="74">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 1:51:26 PM" CreatedBy="ELIRANBA" Description="SendKeys by X Y inside the canvas TextBox" EnableRetryMechanism="False" GenElementAction="XYSendKeys" Guid="0dfd665e-2fe7-48d6-9c7e-a64160e6da4e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="261" Yoffset="74">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -716,7 +716,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 1:51:26 PM" CreatedBy="ELIRANBA" Description="Checkbox Click" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="d9cb8ae5-01b0-4d8a-9b65-a90a9488b7ba" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="32" Yoffset="694">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 1:51:26 PM" CreatedBy="ELIRANBA" Description="Checkbox Click" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="d9cb8ae5-01b0-4d8a-9b65-a90a9488b7ba" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="32" Yoffset="694">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -736,7 +736,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 3:02:09 PM" CreatedBy="ELIRANBA" Description="Click by X Y inside the canvas Element" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="b86642fb-4b2f-4652-89e3-e341d87e8c55" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="826" Yoffset="788">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 3:02:09 PM" CreatedBy="ELIRANBA" Description="Click by X Y inside the canvas Element" EnableRetryMechanism="False" GenElementAction="XYClick" Guid="b86642fb-4b2f-4652-89e3-e341d87e8c55" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="826" Yoffset="788">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -756,7 +756,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 3:02:09 PM" CreatedBy="ELIRANBA" Description="SendKeys by X Y inside the canvas TextBox" EnableRetryMechanism="False" GenElementAction="XYSendKeys" Guid="ad64e717-a235-47d5-a697-fa032a85d473" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="288" Yoffset="693">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/5/2017 3:02:09 PM" CreatedBy="ELIRANBA" Description="SendKeys by X Y inside the canvas TextBox" EnableRetryMechanism="False" GenElementAction="XYSendKeys" Guid="ad64e717-a235-47d5-a697-fa032a85d473" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[3]/canvas[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="288" Yoffset="693">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -776,7 +776,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchToDefaultFrame" Created="4/3/2017 1:25:56 PM" CreatedBy="eliranba" Description="second frame_Copy" EnableRetryMechanism="False" Guid="3d5fd36b-d448-4012-b3d4-afd88b39ffaa" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[3]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchToDefaultFrame" Created="4/3/2017 1:25:56 PM" CreatedBy="eliranba" Description="second frame_Copy" EnableRetryMechanism="False" Guid="3d5fd36b-d448-4012-b3d4-afd88b39ffaa" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[3]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -809,7 +809,7 @@
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="2660" AutomationStatus="Development" Created="6/12/2017 9:04:12 AM" CreatedBy="ELIRANBA" EnableActionsVariablesDependenciesControl="False" Guid="1bdb86e8-eb0d-4d3c-9ac2-87b4e579c92e" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from:Main Frame" EnableRetryMechanism="False" Guid="c26d0352-6a40-48e8-8cf7-45625aeaa70e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from:Main Frame" EnableRetryMechanism="False" Guid="c26d0352-6a40-48e8-8cf7-45625aeaa70e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -828,7 +828,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActBrowserElement>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from: Main Frame--&gt;html/body[1]/iframe[1]" EnableRetryMechanism="False" Guid="3ff1c840-3167-4f82-b90c-0dad215374e7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from: Main Frame--&gt;html/body[1]/iframe[1]" EnableRetryMechanism="False" Guid="3ff1c840-3167-4f82-b90c-0dad215374e7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -847,7 +847,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActBrowserElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/12/2017 9:06:01 AM" CreatedBy="ELIRANBA" Description="Set input Name=uname Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="b9ef9707-4f3b-4d08-84b5-2d62050ebdeb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/12/2017 9:06:01 AM" CreatedBy="ELIRANBA" Description="Set input Name=uname Value" EnableRetryMechanism="False" GenElementAction="SetValue" Guid="b9ef9707-4f3b-4d08-84b5-2d62050ebdeb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -867,7 +867,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/12/2017 9:06:01 AM" CreatedBy="ELIRANBA" Description="Get Value to be failed" EnableRetryMechanism="False" ExternalID="" GenElementAction="GetValue" Guid="37ce6ad3-deda-43f0-9488-9f5a2aa5dcfc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/12/2017 9:06:01 AM" CreatedBy="ELIRANBA" Description="Get Value to be failed" EnableRetryMechanism="False" ExternalID="" GenElementAction="GetValue" Guid="37ce6ad3-deda-43f0-9488-9f5a2aa5dcfc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -888,7 +888,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/12/2017 9:06:01 AM" CreatedBy="ELIRANBA" Description="set value to the third frame" EnableRetryMechanism="False" ExternalID="" GenElementAction="SetValue" Guid="5bfcfe5d-0e1f-461e-a309-f59bef23ee71" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/12/2017 9:06:01 AM" CreatedBy="ELIRANBA" Description="set value to the third frame" EnableRetryMechanism="False" ExternalID="" GenElementAction="SetValue" Guid="5bfcfe5d-0e1f-461e-a309-f59bef23ee71" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="uname" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -908,7 +908,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchToDefaultFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from:Main Frame_Copy" EnableRetryMechanism="False" ExternalID="" Guid="f21d1225-f300-48f7-b5d4-977eb84648d6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="SwitchToDefaultFrame" Created="6/12/2017 9:06:12 AM" CreatedBy="ELIRANBA" Description="Switch Window to: html/body[1]/iframe[1] from:Main Frame_Copy" EnableRetryMechanism="False" ExternalID="" Guid="f21d1225-f300-48f7-b5d4-977eb84648d6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="html/body[1]/iframe[1]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
